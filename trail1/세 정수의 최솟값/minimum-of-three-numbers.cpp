@@ -3,7 +3,6 @@ using namespace std;
 
 int main() {
     int a,b,c;
-    int lowest;
 
     cin >> a >> b >> c;
 
@@ -16,6 +15,6 @@ int main() {
     else {
         cout << c;
     }
-    
+
     return 0;
 }
