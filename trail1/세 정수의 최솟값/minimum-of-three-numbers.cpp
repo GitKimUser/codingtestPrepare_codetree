@@ -7,9 +7,15 @@ int main() {
 
     cin >> a >> b >> c;
 
-    lowest = a < b ? a : b;
-    lowest = c < lowest ? c : lowest;
-
-    cout << lowest;
+    if(a <= b && a <= c) {
+        cout << a;
+    }
+    else if(b <= a && b <= c) {
+        cout << b;
+    }
+    else {
+        cout << c;
+    }
+    
     return 0;
 }
